@@ -1,0 +1,88 @@
+#site-header{
+	height:35px;
+}
+
+#second-sidebar{
+	padding-top:0.5em;
+	padding-left:1px;
+}
+
+#title-wrapper{
+	margin-bottom:2px;
+	padding:0em;
+}
+
+#content{
+	margin-top:1em;
+}
+
+.th{
+	background-color: #0D2A44;
+}
+
+.breadcrumb{
+	padding-bottom: 0px;
+}
+
+.field-items{
+	border: 1px solid #0D2A44;
+	border-bottom: none;
+	box-sizing: border-box;
+}
+
+
+
+/*Notification Boxes for Insutructions and Theory*/
+.field-name-field-theory .field-items{
+	padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+.field-name-field-instructions .field-items{
+	padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+
+
+/*Scrolling Text For Gist Reading*/
+.marquee
+{
+	display:block;
+	position: relative;
+	width: 100%;
+	height: 300px;																																																																																																																																																																																																																																																																												
+	overflow: hidden;
+	border-radius: 0.3em;
+	border: 16px solid #0D2A44;
+	box-sizing: border-box;
+}
+.marquee > p
+{
+	position: relative;
+	padding-left:16px;
+	align-content: centre;
+	color:#0D2A44
+	top: 100%;
+	white-space: nowrap;
+	animation: scroll 50s linear 3s infinite;
+}
+@keyframes scroll {
+	0% { top: 100%; }
+	100% { top: -280%; }
+}
