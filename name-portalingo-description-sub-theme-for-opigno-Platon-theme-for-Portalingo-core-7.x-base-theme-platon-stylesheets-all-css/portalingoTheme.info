@@ -1,6 +1,0 @@
-name = portalingo
-description = sub theme for opigno Platon theme for Portalingo
-core = 7.x
-base theme = platon
-
-stylesheets[all][] = css/portalingoStyles.css
